@@ -1,0 +1,40 @@
+body{
+    background-color: darkgray;
+}
+.calculator{
+    background-color: azure;
+    width:50%;
+    margin: auto;
+}
+#display{
+    text-align: right;
+    font-size: 28px;
+    height: 75px;
+    line-height: 100px;
+    background-color: black;
+    color: rgb(226, 224, 195);
+    border:0.5px solid rgb(226, 224, 195);
+    border-bottom: 0px;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    border:1px solid gray;
+}
+.button{
+    border:0.5px solid rgb(226, 224, 195);
+    text-align: center;
+    font-size: 24px;
+    line-height: 90px;
+    cursor: pointer;
+    background-color:black;
+    color:rgb(226, 224, 195);
+}
+#ac,#de,#divide,#dec,#mul,#sub,#add,#result{
+    background-color:teal;
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    transition:0s ease-in-out;
+}
